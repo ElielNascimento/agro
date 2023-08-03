@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: linear-gradient(to right, rgb(2, 65, 90), rgb(104, 1, 93));
+    height: 8vh;
+    align-items: center;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    background: url("img/mundo.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
